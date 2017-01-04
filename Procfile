@@ -1,1 +1,1 @@
-web: export DO_NOT_OPEN=true; node server.js
+web: export PORT=$PORT; npm start --production

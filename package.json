@@ -110,7 +110,6 @@
     "e2e-test": "protractor test/e2e/protractor.config.js",
     "test": "npm run unit-test && npm run e2e-test",
     "lint": "eslint . --format 'node_modules/eslint-friendly-formatter'",
-    "gh-pages": "./gh-pages.sh",
-    "heroku-postbuild": "webpack --production --hide-modules --stats=errors-only"
+    "gh-pages": "./gh-pages.sh"
   }
 }
