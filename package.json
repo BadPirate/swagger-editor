@@ -113,6 +113,5 @@
     "test": "npm run unit-test && npm run e2e-test",
     "lint": "eslint . --format 'node_modules/eslint-friendly-formatter'",
     "gh-pages": "./gh-pages.sh",
-    "heroku-postbuild": "node_modules/.bin/webpack -p --config ./webpack.config.js --progress"
   }
 }
